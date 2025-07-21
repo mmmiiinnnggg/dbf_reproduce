@@ -1,7 +1,0 @@
-
-31 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 31.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.18301156030553276 
