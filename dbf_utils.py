@@ -409,7 +409,7 @@ def collect_norms(model, dataloader, n_calib_data=256, n_calib_limit=256, seqlen
         shift_labels = eval_batch[:, 1:]
         loss_fct = nn.CrossEntropyLoss()
         loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))
-        # print(idx, loss)
+        print(idx, loss)
         loss.backward()
 
     for h in handles:
@@ -492,11 +492,11 @@ def opt_sequential(model, dataloader, dev, target_bits=2.0, n_samples=256, norm_
     print('Ready.')
     writer = SummaryWriter(log_dir=os.path.join(save_dir, "tb"))
 
-    # layers = model.model.layers
 
     # block-wise PTQ with compression
     for i in range(len(layers)):
         layer = layers[i].to(dev)
+        layer = layer.float() # important !!!
         subset = find_layers(layer)
 
         # current FP output for layer (train & test)
@@ -520,6 +520,8 @@ def opt_sequential(model, dataloader, dev, target_bits=2.0, n_samples=256, norm_
         ]:
             print(i, name)
             to_opt = {n: p for n, p in layer.named_parameters() if "weight" in n and "layernorm" not in n}
+            for n, p in to_opt.items():
+                print(n, p.dtype)
 
             # finetuning the weights layer-wise
             if only_full_ft:
@@ -630,7 +632,7 @@ def opt_sequential(model, dataloader, dev, target_bits=2.0, n_samples=256, norm_
         del layer
         torch.cuda.empty_cache()
 
-@torch.no_grad()
+
 def eval_model(model, eval_dataloader):
     model.eval()
 
