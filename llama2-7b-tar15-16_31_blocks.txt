@@ -1,604 +1,4 @@
 collecting Q input activations for next block ...
-collecting FP target output activations for block 8...
-8 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.05074259117463953
-epoch: 1, train err: 0.0484418614905735
-epoch: 2, train err: 0.04752702103724005
-epoch: 3, train err: 0.04712293373995635
-Factorizing 8.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16024506352692514 
-
-8 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 8.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.17433135124553417 
-
-8 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 8.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.19461080159818875 
-
-8 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.04865566761509399
-epoch: 1, train err: 0.04761745545511076
-epoch: 2, train err: 0.04720513527536241
-epoch: 3, train err: 0.04701767804363044
-Factorizing 8.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16631008009920084 
-
-8 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 8.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.18425620960815817 
-
-8 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 8.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.1684628825438225 
-
-8 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 8.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.17353929618052627 
-
-collecting Q input activations for next block ...
-collecting FP target output activations for block 9...
-9 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.04521628213842632
-epoch: 1, train err: 0.04296772168527241
-epoch: 2, train err: 0.04220988378983748
-epoch: 3, train err: 0.04186519492395746
-Factorizing 9.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16360118283257585 
-
-9 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 9.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.1751948372371142 
-
-9 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 9.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.1968031307431289 
-
-9 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.043425204705272336
-epoch: 1, train err: 0.04235754587534757
-epoch: 2, train err: 0.041945459288399434
-epoch: 3, train err: 0.0417535092565231
-Factorizing 9.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16272695584380514 
-
-9 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 9.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.18353988428672935 
-
-9 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 9.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.16851671626992173 
-
-9 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 9.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.17330431564175286 
-
-collecting Q input activations for next block ...
-collecting FP target output activations for block 10...
-10 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.03978179310433916
-epoch: 1, train err: 0.03787936045409879
-epoch: 2, train err: 0.037113556205440545
-epoch: 3, train err: 0.036785735179364565
-Factorizing 10.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.15256941113207734 
-
-10 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 10.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.17012427201108965 
-
-10 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 10.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.17752293416717566 
-
-10 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.03819315546206781
-epoch: 1, train err: 0.037133132747840136
-epoch: 2, train err: 0.03677074806910241
-epoch: 3, train err: 0.03657571143048699
-Factorizing 10.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.15217508838553376 
-
-10 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 10.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.18287116682973545 
-
-10 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 10.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.16837126909614125 
-
-10 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 10.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.1716974132303522 
-
-collecting Q input activations for next block ...
-collecting FP target output activations for block 11...
-11 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.035078531411272706
-epoch: 1, train err: 0.0330990955735615
-epoch: 2, train err: 0.03234185491965036
-epoch: 3, train err: 0.03201160046228324
-Factorizing 11.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.1434451005862372 
-
-11 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 11.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16783425023925003 
-
-11 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 11.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.1716399877851311 
-
-11 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.03321043655159883
-epoch: 1, train err: 0.03221498764469288
-epoch: 2, train err: 0.03185123645380372
-epoch: 3, train err: 0.03165298454769072
-Factorizing 11.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.1504211284173683 
-
-11 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 11.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.1814972377507399 
-
-11 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 11.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.1667413559790859 
-
-11 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 11.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.17364591202749946 
-
-collecting Q input activations for next block ...
-collecting FP target output activations for block 12...
-12 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.034290669529582374
-epoch: 1, train err: 0.03194036501736264
-epoch: 2, train err: 0.031224957107042428
-epoch: 3, train err: 0.03087090770713985
-Factorizing 12.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16433207508229378 
-
-12 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 12.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.17589520069354833 
-
-12 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 12.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.18559452009508473 
-
-12 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.03227719200003776
-epoch: 1, train err: 0.031232575103786075
-epoch: 2, train err: 0.030853704392939107
-epoch: 3, train err: 0.030628081618488068
-Factorizing 12.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.15868332976876698 
-
-12 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 12.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.18097640498959383 
-
-12 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 12.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.16744031211258523 
-
-12 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 12.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.1742865242802721 
-
-collecting Q input activations for next block ...
-collecting FP target output activations for block 13...
-13 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.032742833460361
-epoch: 1, train err: 0.030373119308933383
-epoch: 2, train err: 0.02957163442624733
-epoch: 3, train err: 0.029169700646889396
-Factorizing 13.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16518767867195555 
-
-13 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 13.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.18530353378194792 
-
-13 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 13.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.18185671003755782 
-
-13 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.030821023356111255
-epoch: 1, train err: 0.02960238154992112
-epoch: 2, train err: 0.02913319343861076
-epoch: 3, train err: 0.02887555158304167
-Factorizing 13.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16768184448890908 
-
-13 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 13.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.1830524420422397 
-
-13 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 13.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.16967253999314985 
-
-13 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 13.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.17831648922004098 
-
-collecting Q input activations for next block ...
-collecting FP target output activations for block 14...
-14 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.0307069994014455
-epoch: 1, train err: 0.028518523442471633
-epoch: 2, train err: 0.027762602399889147
-epoch: 3, train err: 0.027440789985121228
-Factorizing 14.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.1545734530397874 
-
-14 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 14.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.17943785035626855 
-
-14 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 14.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.1801038664675124 
-
-14 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.028653388162638294
-epoch: 1, train err: 0.02760107493668329
-epoch: 2, train err: 0.027177970547199948
-epoch: 3, train err: 0.026967048321239417
-Factorizing 14.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.15406862712860386 
-
-14 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 14.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.18134759291456148 
-
-14 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 14.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.16860631478554708 
-
-14 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 14.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.17993800670284177 
-
-collecting Q input activations for next block ...
-collecting FP target output activations for block 15...
-15 self_attn.q_proj
-self_attn.q_proj.weight torch.float32
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.03302502683800412
-epoch: 1, train err: 0.03056728067167569
-epoch: 2, train err: 0.029690462484722957
-epoch: 3, train err: 0.02931932491628686
-Factorizing 15.self_attn.q_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16505809204284771 
-
-15 self_attn.v_proj
-self_attn.k_proj.weight torch.float32
-self_attn.v_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 15.self_attn.v_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.18109355289994453 
-
-15 self_attn.o_proj
-self_attn.k_proj.weight torch.float32
-self_attn.o_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 15.self_attn.o_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.18258941644339713 
-
-15 self_attn.k_proj
-self_attn.k_proj.weight torch.float32
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
-epoch: 0, train err: 0.030381447490071878
-epoch: 1, train err: 0.02926866544657969
-epoch: 2, train err: 0.028796697548386874
-epoch: 3, train err: 0.028593074399395846
-Factorizing 15.self_attn.k_proj...
-sparsity check:  1.5 bpw
-relative err after factorization:  0.16148308618686016 
-
-15 mlp.up_proj
-mlp.gate_proj.weight torch.float32
-mlp.up_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 15.mlp.up_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.1844565293086488 
-
-15 mlp.gate_proj
-mlp.gate_proj.weight torch.float32
-mlp.down_proj.weight torch.float32
-Factorizing 15.mlp.gate_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.17101130907006762 
-
-15 mlp.down_proj
-mlp.down_proj.weight torch.float32
-Factorizing 15.mlp.down_proj...
-sparsity check:  1.499721793241279 bpw
-relative err after factorization:  0.18532641556930637 
-
-collecting Q input activations for next block ...
 collecting FP target output activations for block 16...
 16 self_attn.q_proj
 self_attn.q_proj.weight torch.float32
@@ -1200,3 +600,607 @@ relative err after factorization:  0.18805319215698343
 
 collecting Q input activations for next block ...
 collecting FP target output activations for block 24...
+24 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.03615834722586442
+epoch: 1, train err: 0.034662257981835864
+epoch: 2, train err: 0.03400204299396137
+epoch: 3, train err: 0.033705008077959064
+Factorizing 24.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.16672601720651142 
+
+24 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 24.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.18591114341230475 
+
+24 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 24.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.21273930189645046 
+
+24 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.034711839820374735
+epoch: 1, train err: 0.033772284725273494
+epoch: 2, train err: 0.033339013425575104
+epoch: 3, train err: 0.033160782608320005
+Factorizing 24.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.16744098137789185 
+
+24 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 24.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.18094100135720778 
+
+24 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 24.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.17188610126602427 
+
+24 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 24.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.18642154715464412 
+
+collecting Q input activations for next block ...
+collecting FP target output activations for block 25...
+25 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.034060028512612917
+epoch: 1, train err: 0.032798464155348483
+epoch: 2, train err: 0.0322021143801976
+epoch: 3, train err: 0.031924838716804516
+Factorizing 25.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.1815334272175839 
+
+25 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 25.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.18901805567908922 
+
+25 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 25.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.20455000408156315 
+
+25 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.03300450093229301
+epoch: 1, train err: 0.032147205725777894
+epoch: 2, train err: 0.0317548643797636
+epoch: 3, train err: 0.031591714156093076
+Factorizing 25.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.18372039092734258 
+
+25 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 25.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.1826581529145827 
+
+25 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 25.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.17358579686608083 
+
+25 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 25.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.1858427715231755 
+
+collecting Q input activations for next block ...
+collecting FP target output activations for block 26...
+26 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.032442938718304504
+epoch: 1, train err: 0.03126535561023047
+epoch: 2, train err: 0.030718787747900933
+epoch: 3, train err: 0.03044678919832222
+Factorizing 26.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.17707829104512962 
+
+26 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 26.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.18876610259183166 
+
+26 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 26.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.22358212349981377 
+
+26 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.0316482133421232
+epoch: 1, train err: 0.03082173961593071
+epoch: 2, train err: 0.030445989541476592
+epoch: 3, train err: 0.03028476711915573
+Factorizing 26.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.1744684760870531 
+
+26 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 26.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.18465328489864785 
+
+26 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 26.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.1742235432972921 
+
+26 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 26.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.1872351670213008 
+
+collecting Q input activations for next block ...
+collecting FP target output activations for block 27...
+27 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.030345664454216603
+epoch: 1, train err: 0.02927972102770582
+epoch: 2, train err: 0.028802549415559042
+epoch: 3, train err: 0.02855068611097522
+Factorizing 27.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.19329125601908104 
+
+27 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 27.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.19365729468112858 
+
+27 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 27.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.2145124742461135 
+
+27 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.029555663975770585
+epoch: 1, train err: 0.02880400508729508
+epoch: 2, train err: 0.028460173358325846
+epoch: 3, train err: 0.028303441518801264
+Factorizing 27.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.19399357903271686 
+
+27 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 27.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.1874641996924377 
+
+27 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 27.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.17608772401359324 
+
+27 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 27.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.18961403335580163 
+
+collecting Q input activations for next block ...
+collecting FP target output activations for block 28...
+28 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.02925341519585345
+epoch: 1, train err: 0.028111959727539215
+epoch: 2, train err: 0.027591591839154717
+epoch: 3, train err: 0.027305249801429454
+Factorizing 28.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.19553498622676146 
+
+28 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 28.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.19538420491302716 
+
+28 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 28.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.22072920613056257 
+
+28 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.02862374694814207
+epoch: 1, train err: 0.02777663405140629
+epoch: 2, train err: 0.02741352956945775
+epoch: 3, train err: 0.02723573212279007
+Factorizing 28.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.20448828766403704 
+
+28 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 28.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.19159974165927401 
+
+28 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 28.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.17715294222749464 
+
+28 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 28.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.19659880656870193 
+
+collecting Q input activations for next block ...
+collecting FP target output activations for block 29...
+29 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.029337929918256123
+epoch: 1, train err: 0.02788757257803809
+epoch: 2, train err: 0.02729952753725229
+epoch: 3, train err: 0.026993048180884216
+Factorizing 29.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.177775829564853 
+
+29 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 29.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.19224176188442446 
+
+29 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 29.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.2092161156041306 
+
+29 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.028283901170652825
+epoch: 1, train err: 0.02741186472849222
+epoch: 2, train err: 0.027014779938326683
+epoch: 3, train err: 0.026806060566741508
+Factorizing 29.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.17917269705972247 
+
+29 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 29.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.19642938849454825 
+
+29 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 29.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.18086204792249705 
+
+29 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 29.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.20388509338353272 
+
+collecting Q input activations for next block ...
+collecting FP target output activations for block 30...
+30 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.05023017901839921
+epoch: 1, train err: 0.03923106680304045
+epoch: 2, train err: 0.035063059731328394
+epoch: 3, train err: 0.034093782385753
+Factorizing 30.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.1869904561315023 
+
+30 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 30.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.1978749680719611 
+
+30 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 30.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.22629142072562586 
+
+30 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.03714064252562821
+epoch: 1, train err: 0.03433196785772452
+epoch: 2, train err: 0.03358875500271097
+epoch: 3, train err: 0.03320468804304255
+Factorizing 30.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.18926772461988967 
+
+30 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 30.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.20238480860398858 
+
+30 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 30.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.1798771086087355 
+
+30 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 30.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.2168303522215587 
+
+collecting Q input activations for next block ...
+collecting FP target output activations for block 31...
+31 self_attn.q_proj
+self_attn.q_proj.weight torch.float32
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.q_proj.weight', 'self_attn.k_proj.weight', 'self_attn.v_proj.weight', 'self_attn.o_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.13943132865824737
+epoch: 1, train err: 0.11331145391159225
+epoch: 2, train err: 0.10737892135512084
+epoch: 3, train err: 0.10477957218245137
+Factorizing 31.self_attn.q_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.17555898124345753 
+
+31 self_attn.v_proj
+self_attn.k_proj.weight torch.float32
+self_attn.v_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 31.self_attn.v_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.19730401528718997 
+
+31 self_attn.o_proj
+self_attn.k_proj.weight torch.float32
+self_attn.o_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 31.self_attn.o_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.20795611924667326 
+
+31 self_attn.k_proj
+self_attn.k_proj.weight torch.float32
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+tuning weights:  dict_keys(['self_attn.k_proj.weight', 'mlp.gate_proj.weight', 'mlp.up_proj.weight', 'mlp.down_proj.weight'])
+epoch: 0, train err: 0.12493406573776156
+epoch: 1, train err: 0.11656618375855032
+epoch: 2, train err: 0.11304659750021528
+epoch: 3, train err: 0.11185086966725066
+Factorizing 31.self_attn.k_proj...
+sparsity check:  1.5 bpw
+relative err after factorization:  0.1761743762516219 
+
+31 mlp.up_proj
+mlp.gate_proj.weight torch.float32
+mlp.up_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 31.mlp.up_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.21066752974019862 
+
+31 mlp.gate_proj
+mlp.gate_proj.weight torch.float32
+mlp.down_proj.weight torch.float32
+Factorizing 31.mlp.gate_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.18301156030553276 
+
+31 mlp.down_proj
+mlp.down_proj.weight torch.float32
+Factorizing 31.mlp.down_proj...
+sparsity check:  1.499721793241279 bpw
+relative err after factorization:  0.2343591284083519 
+
+total time 62538.561091423035
+saving model...
+Model's save dict has been saved!
+Testing PPL...
+
+Start evaluation...
